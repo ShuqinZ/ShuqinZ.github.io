@@ -28,14 +28,12 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I’m Shuqin Zhu. I am a third-year Computer Science Ph.D. candidate at the
-          University of Southern California, advised by Professor Shahram
-          Ghandeharizadeh. I am affiliated with{' '}
-          <a href="https://www.flslab.org/">FLS (Flying Light Specks) Lab</a>. My
-          research focuses on UAVs (drones), robotics, haptics, and multi-agent drone
-          systems.
+          Hi, I&apos;m Shuqin Zhu. I am a third-year Computer Science Ph.D. candidate at the{' '}
+          <a href="https://www.usc.edu/">University of Southern California</a>, advised by Professor
+          Shahram Ghandeharizadeh. I am affiliated with{' '}
+          <a href="https://www.flslab.org/">FLS (Flying Light Specks) Lab</a>. My research focuses
+          on UAVs (drones), robotics, haptics, and multi-agent drone systems.
         </p>
-
         <ul className="actions">
           <li>
             {pathname && !pathname.includes('/resume') ? (
